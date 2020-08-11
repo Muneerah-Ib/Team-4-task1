@@ -12,8 +12,13 @@ class CommentsScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.fromLTRB(16, 40, 16, 0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CustomAppBar()
+            CustomAppBar(),
+            Text("Comments",style: Style.defaultTextStyle.copyWith(
+                color: Style.alternateColor,
+              fontSize: 40,
+            ),)
           ],
         ),
       ),

@@ -1,3 +1,4 @@
+import 'package:ecx_forum_app/screens/feeds_screen.dart';
 import 'package:ecx_forum_app/screens/sign_in.dart';
 import 'package:ecx_forum_app/utilities/custom_paints.dart';
 import 'package:ecx_forum_app/utilities/widgets.dart';
@@ -54,9 +55,17 @@ class SignUp extends StatelessWidget {
                 ),
                 CustomLongButton(
                   label: "SIGN UP",
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                        context,
+                        CupertinoPageRoute(
+                          builder: (context) => FeedsScreen(),
+                        ));
+                  },
                 ),
-                SizedBox(height: 16,),
+                SizedBox(
+                  height: 16,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
