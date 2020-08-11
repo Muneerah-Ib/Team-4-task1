@@ -17,9 +17,10 @@ final cLightBlue = Color(0xFF4DB8F0);
 final cMediumBlue = Color(0xFF3497FD);
 final cMediumGrey = Color(0xFF78849E);
 final cDarkGrey = Color(0xFF555869);
+final alternateColor = Color(0xFF454F63);
 //final cWhite = Color(0xFFFFFFFF);
 
-final labelText = TextStyle(
+final defaultTextStyle = TextStyle(
   fontFamily: "Compact Display",
   fontWeight: FontWeight.w500,
   fontSize: 15,

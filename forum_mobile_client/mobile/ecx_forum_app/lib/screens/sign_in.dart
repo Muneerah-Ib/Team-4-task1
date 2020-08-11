@@ -28,7 +28,7 @@ class SignIn extends StatelessWidget {
                   ),
                 ),
                 Spacer(),
-                Text("SIGN IN",style: Style.labelText.copyWith(
+                Text("SIGN IN",style: Style.defaultTextStyle.copyWith(
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
                   color: Style.cLightGrey
@@ -41,7 +41,7 @@ class SignIn extends StatelessWidget {
                   hintText: "Password",
                 ),
                 Spacer(),
-                Text("FORGOT PASSWORD?",style: Style.labelText.copyWith(
+                Text("FORGOT PASSWORD?",style: Style.defaultTextStyle.copyWith(
                  fontWeight: FontWeight.bold,
                  fontSize: 13,
                   color: Style.cMediumGrey.withOpacity(0.57)
@@ -59,13 +59,13 @@ class SignIn extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Don\'t have an account?", style: Style.labelText.copyWith(
+                    Text("Don\'t have an account?", style: Style.defaultTextStyle.copyWith(
                       fontSize: 11
                     ),),
                     SizedBox(
                       width: 10,
                     ),
-                    Text("Click here to SIGN UP",style:Style.labelText.copyWith(
+                    Text("Click here to SIGN UP",style:Style.defaultTextStyle.copyWith(
                         fontSize: 12,
                       color: Style.cLightBlue
                     ),),
